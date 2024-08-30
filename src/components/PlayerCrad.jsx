@@ -9,7 +9,7 @@ const PlayerCard =({name,img,statistics}) => {
         return (
             <Card className='cardStyle' role='button' onClick={handleClick}>
             {show ? (
-                <Card.Img variant="top" src={img} />
+                <Card.Img variant="top" title={name} src={img} />
             ) : (
                 <ul >
                     {statistics.map((item)=>(
