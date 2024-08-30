@@ -13,7 +13,7 @@ const PlayerCard =({name,img,statistics}) => {
             ) : (
                 <ul >
                     {statistics.map((item)=>(
-                        <li>{item}</li>
+                        <li>🏀{item}</li>
                     ))}
                 </ul>
                 )}
